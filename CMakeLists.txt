@@ -1,7 +1,11 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.10)
 project(calculator)
 
 set(CMAKE_CXX_STANDARD 17)
+
+if (EXISTS ${CMAKE_BINARY_DIR}/conan_paths.cmake)
+    include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
+endif ()
 
 aux_source_directory(src EXE_SOURCES)
 list(FILTER EXE_SOURCES INCLUDE REGEX "^.*.cc$")
