@@ -1,0 +1,6 @@
+#ifndef INCLUDE_SUPERXC_PLACEHOLER_H
+#define INCLUDE_SUPERXC_PLACEHOLER_H
+
+int add(int a, int b);
+
+#endif // INCLUDE_SUPERXC_PLACEHOLER_H
