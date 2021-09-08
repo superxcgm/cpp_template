@@ -1,16 +1,8 @@
 # C++代码基本架子
 
-## 安装依赖
-```shell
-mkdir build
-cd build
-conan install ..
-```
-
 ## 构建
 ```shell
-cd build
-cmake .. && cmake --build .
+./auto/build.sh
 ```
 
 ## 运行测试
