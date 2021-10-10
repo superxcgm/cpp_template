@@ -5,8 +5,12 @@
 ./auto/build.sh
 ```
 
+## 运行
+```shell
+./auto/run.sh
+```
+
 ## 运行测试
 ```shell
-cd build
-./calculator_test
+./auto/test
 ```

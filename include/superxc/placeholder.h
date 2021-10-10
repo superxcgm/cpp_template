@@ -1,6 +1,0 @@
-#ifndef INCLUDE_SUPERXC_PLACEHOLDER_H_
-#define INCLUDE_SUPERXC_PLACEHOLDER_H_
-
-int add(int a, int b);
-
-#endif  // INCLUDE_SUPERXC_PLACEHOLDER_H_
